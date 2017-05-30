@@ -4,39 +4,39 @@ const FoodChain = class {
 }
 
 FoodChain.prototype.parts = [
-    {
-      critter: 'fly',
-      descriptor: 'I don\'t know why she swallowed the fly. Perhaps she\'ll die.\n'
-    },
-    {
-      critter: 'spider',
-      critterLong: 'spider that wriggled and jiggled and tickled inside her',
-      descriptor: 'It wriggled and jiggled and tickled inside her.\n'
-    },
-    {
-      critter: 'bird',
-      descriptor: 'How absurd to swallow a bird!\n'
-    },
-    {
-      critter: 'cat',
-      descriptor: 'Imagine that, to swallow a cat!\n'
-    },
-    {
-      critter: 'dog',
-      descriptor: 'What a hog, to swallow a dog!\n'
-    },
-    {
-      critter: 'goat',
-      descriptor: 'Just opened her throat and swallowed a goat!\n'
-    },
-    {
-      critter: 'cow',
-      descriptor: 'I don\'t know how she swallowed a cow!\n'
-    },
-    {
-      critter: 'horse',
-      descriptor: 'She\'s dead, of course!\n'
-    }
+  {
+    critter: 'fly',
+    descriptor: 'I don\'t know why she swallowed the fly. Perhaps she\'ll die.\n'
+  },
+  {
+    critter: 'spider',
+    critterLong: 'spider that wriggled and jiggled and tickled inside her',
+    descriptor: 'It wriggled and jiggled and tickled inside her.\n'
+  },
+  {
+    critter: 'bird',
+    descriptor: 'How absurd to swallow a bird!\n'
+  },
+  {
+    critter: 'cat',
+    descriptor: 'Imagine that, to swallow a cat!\n'
+  },
+  {
+    critter: 'dog',
+    descriptor: 'What a hog, to swallow a dog!\n'
+  },
+  {
+    critter: 'goat',
+    descriptor: 'Just opened her throat and swallowed a goat!\n'
+  },
+  {
+    critter: 'cow',
+    descriptor: 'I don\'t know how she swallowed a cow!\n'
+  },
+  {
+    critter: 'horse',
+    descriptor: 'She\'s dead, of course!\n'
+  }
 ]
 
 FoodChain.prototype.verse = function(verseNum, numVerses) {
